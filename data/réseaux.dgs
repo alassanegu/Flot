@@ -1,0 +1,48 @@
+DGS004
+réseaux 0 0
+
+an P1 x:-2 y:2
+an P2 x:-2 y:0
+an P3 x:-2 y:-2
+an J1 x:-1 y:1
+an J2 x:-1 y:-1
+an J3 x:1 y:1
+an J4 x:1 y:-1
+an PC1 x:0 y:2
+an PC2 x:0 y:-2
+an C1 x:2 y:1.5
+an C2 x:2 y:0.5
+an C3 x:2 y:-0.5
+an C4 x:2 y:-1.5
+an S x:-3 y:0
+an P x:3 y:0
+
+
+ae SP1 S > P1 capacite=7
+ae SP2 S > P2 capacite=7
+ae SP3 S > P3 capacite=8
+ae SPC1 S > PC1 capacite=0
+ae SPC2 S > PC2 capacite=0
+ae C1P C1 > P capacite=5
+ae C2P C2 > P capacite=4
+ae C3P C3 > P capacite=5
+ae C4P C4 > P capacite=3
+ae PC1P PC1 > P capacite=2
+ae PC2P PC2 > P capacite=2
+ae P1J1 P1 > J1 capacite=7
+ae P2J1 P2 > J1 capacite=5
+ae P2J2 P2 > J2 capacite=5
+ae P3J2 P3 > J2 capacite=8
+ae J1PC1 J1 > PC1 capacite=2
+ae J1J3 J1 > J3 capacite=2
+ae J1PC2 J1 > PC2 capacite=5
+ae J2PC2 J2 > PC2 capacite=3
+ae J2J4 J2 > J4 capacite=6
+ae J2C3 J2 > C3 capacite=2
+ae PC1C1 PC1 > C1 capacite=2
+ae PC2J3 PC2 > J3 capacite=4
+ae J3C1 J3 > C1 capacite=2
+ae J3C2 J3 > C2 capacite=4
+ae J3C3 J3 > C3 capacite=2
+ae J4C3 J4 > C3 capacite=2
+ae J4C4 J4 > C4 capacite=3
